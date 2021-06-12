@@ -15,8 +15,8 @@ public class Sendotp {
 	public static boolean sendmail(String email,int otp) {
 		
 		boolean status=false;
-		final String username="parkingdoneeasy@gmail.com";
-		final String password="parkerparking";
+		final String username="";
+		final String password="";
 		Properties prop=new Properties();
 		prop.put("mail.smtp.auth", true);
 		prop.put("mail.smtp.starttls.enable",true);
