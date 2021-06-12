@@ -29,7 +29,7 @@ public class Pdfgen {
 	
 public static void sendMain(String[] array) throws URISyntaxException, IOException, DocumentException {
 	String to = array[3];
-	String from = "parkingdoneeasy@gmail.com";
+	String from = "";
 	String host = "smtp.gmail.com";
 	String QR_CODE_IMAGE_PATH = "C:/Users/Rahul/Documents/My Games/qr.png";
     // Get system properties
@@ -46,8 +46,8 @@ public static void sendMain(String[] array) throws URISyntaxException, IOExcepti
     properties.setProperty("mail.smtp.host", host);
     properties.setProperty("mail.defaultEncoding","UTF-8");
     properties.setProperty("mail.smtp.auth","true");
-    properties.setProperty("mail.user","parkingdoneeasy@gmail.com");
-    properties.setProperty("mail.password","parkerparking");
+    properties.setProperty("mail.user","");
+    properties.setProperty("mail.password","");
     //properties.setProperty("mail.smtp.starttls.required","true");
     //properties.setProperty("mail.smtp.starttls.enable","true");
     properties.setProperty("mail.smtp.socketFactory.class","javax.net.ssl.SSLSocketFactory");
