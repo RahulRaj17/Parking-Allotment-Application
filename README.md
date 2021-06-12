@@ -2,11 +2,11 @@
 This project is an implementation of a structured parking system using Java.
 
 ## Requirements :-
-'''
+```
   1. Eclipse IDE
   2. XAMPP
   3. Apache Tomcat v9.0
-'''
+```
 
 ## Installation :-
   1. Add JAR files to build path.
