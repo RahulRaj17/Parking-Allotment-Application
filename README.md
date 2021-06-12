@@ -14,10 +14,6 @@ This project is an implementation of a structured parking system using Java.
   3. Import parking.sql to your database and connect MySQL with Eclipse
 
 
-##Output
+## Output
 
-(/image/sample.png "This is a sample image.")
-(/image/sample.png "This is a sample image.")
-(/image/sample.png "This is a sample image.")
-(/image/sample.png "This is a sample image.")
-(/image/sample.png "This is a sample image.")
+
